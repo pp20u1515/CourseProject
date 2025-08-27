@@ -1,0 +1,7 @@
+package ru.bmstu.dc.architectureanddi
+
+import android.app.Application
+import dagger.hilt.android.HiltAndroidApp
+
+@HiltAndroidApp
+class SampleApp : Application()
